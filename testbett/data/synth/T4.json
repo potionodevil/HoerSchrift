@@ -1,0 +1,104 @@
+{
+ "name": "T4",
+ "sr": 22050,
+ "duration": 18.0,
+ "events": [
+  {
+   "t": 1.0,
+   "dur": 0.3,
+   "class": "beep",
+   "pan": -0.8,
+   "dir": "L",
+   "hz": 880.0
+  },
+  {
+   "t": 2.5,
+   "dur": 0.4,
+   "class": "noise",
+   "pan": 0.8,
+   "dir": "R"
+  },
+  {
+   "t": 4.0,
+   "dur": 0.25,
+   "class": "thump",
+   "pan": 0.0,
+   "dir": "C"
+  },
+  {
+   "t": 7.0,
+   "dur": 0.2,
+   "class": "beep",
+   "pan": -0.8,
+   "dir": "L",
+   "hz": 1318.5
+  },
+  {
+   "t": 7.5,
+   "dur": 0.2,
+   "class": "beep",
+   "pan": -0.8,
+   "dir": "L",
+   "hz": 1318.5
+  },
+  {
+   "t": 9.0,
+   "dur": 0.6,
+   "class": "noise",
+   "pan": 0.8,
+   "dir": "R"
+  },
+  {
+   "t": 10.5,
+   "dur": 1.0,
+   "class": "sweep",
+   "pan": 0.0,
+   "dir": "C",
+   "f0": 300.0,
+   "f1": 3000.0
+  },
+  {
+   "t": 12.5,
+   "dur": 0.25,
+   "class": "thump",
+   "pan": 0.0,
+   "dir": "C"
+  },
+  {
+   "t": 13.0,
+   "dur": 0.25,
+   "class": "thump",
+   "pan": 0.0,
+   "dir": "C"
+  },
+  {
+   "t": 14.2,
+   "dur": 0.01,
+   "class": "click",
+   "pan": -0.6,
+   "dir": "L"
+  },
+  {
+   "t": 15.0,
+   "dur": 0.5,
+   "class": "beep",
+   "pan": 0.7,
+   "dir": "R",
+   "hz": 440.0
+  },
+  {
+   "t": 16.2,
+   "dur": 0.3,
+   "class": "noise",
+   "pan": 0.0,
+   "dir": "C"
+  }
+ ],
+ "silences": [
+  [
+   4.25,
+   7.0
+  ]
+ ],
+ "notes": "scene: beeps left (880 Hz A5, 1318.5 Hz E6 x2), one 440 Hz beep right, noise bursts right, thumps center, a sweep 300->3000 Hz center, a click left, a centered noise burst; level pan + ITD up to 0.6 ms; room noise -70 dBFS"
+}

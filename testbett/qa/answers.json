@@ -1,0 +1,341 @@
+{
+ "clips": {
+  "clip1": {
+   "source": "T3",
+   "audio": "data/synth/T3.wav",
+   "answers": [
+    {
+     "id": "q1",
+     "q": "What key is this in?",
+     "a": "D major",
+     "basis": "exact from synthesis"
+    },
+    {
+     "id": "q2",
+     "q": "What is the tempo in BPM?",
+     "a": "70 BPM (a reading of 140 is the double-time octave)",
+     "basis": "exact"
+    },
+    {
+     "id": "q3",
+     "q": "What is the meter?",
+     "a": "4/4",
+     "basis": "exact"
+    },
+    {
+     "id": "q4",
+     "q": "Describe the chord progression.",
+     "a": "D - Bm - G - A (I-vi-IV-V), one chord per bar, repeated 4 times",
+     "basis": "exact"
+    },
+    {
+     "id": "q5",
+     "q": "Does the piece get louder or quieter over time?",
+     "a": "Louder: one continuous crescendo from about -24 dB to 0 dB over all 16 bars",
+     "basis": "exact"
+    },
+    {
+     "id": "q6",
+     "q": "When does a new instrument enter (bar and/or time)?",
+     "a": "Bar 9, at about 27.4 s",
+     "basis": "exact"
+    },
+    {
+     "id": "q7",
+     "q": "From which side does the new instrument come: left, center or right?",
+     "a": "Right (panned about 45 % right)",
+     "basis": "exact"
+    },
+    {
+     "id": "q8",
+     "q": "Are there drums?",
+     "a": "No drums",
+     "basis": "exact"
+    },
+    {
+     "id": "q9",
+     "q": "Name the likely instrument family of the melody.",
+     "a": "Flute-like pure tone (sine with weak 2nd harmonic): woodwind/flute family; accompaniment is a piano-like arpeggio; the bar-9 entry is a bright saw (brass/string-like) line",
+     "basis": "exact (synthesis voices)"
+    },
+    {
+     "id": "q10",
+     "q": "What mood would a listener report?",
+     "a": "Calm, tender, gradually building/hopeful (major-key ballad with crescendo)",
+     "basis": "subjective reference"
+    }
+   ]
+  },
+  "clip2": {
+   "source": "T4",
+   "audio": "data/synth/T4.wav",
+   "answers": [
+    {
+     "id": "q1",
+     "q": "Is this music, speech or a scene of separate sound events?",
+     "a": "Separate sound events, no music, no speech",
+     "basis": "exact"
+    },
+    {
+     "id": "q2",
+     "q": "How many beeps are there and at which pitches?",
+     "a": "4 beeps: 880 Hz (A5) at 1.0 s, 1318.5 Hz (E6) at 7.0 s and 7.5 s, 440 Hz (A4) at 15.0 s",
+     "basis": "exact"
+    },
+    {
+     "id": "q3",
+     "q": "Where do the high beeps come from: left, center or right?",
+     "a": "Left (the 880 Hz beep and both 1318.5 Hz beeps are panned left)",
+     "basis": "exact"
+    },
+    {
+     "id": "q4",
+     "q": "Where do the noise bursts come from?",
+     "a": "Right for the bursts at 2.5 s and 9.0 s; the burst at 16.2 s is centered",
+     "basis": "exact"
+    },
+    {
+     "id": "q5",
+     "q": "Where is the low thump located, and how many thumps are there?",
+     "a": "Center; 3 thumps (4.0 s, 12.5 s, 13.0 s)",
+     "basis": "exact"
+    },
+    {
+     "id": "q6",
+     "q": "Is there a pitch sweep? Rising or falling, and when?",
+     "a": "Yes, rising 300 -> 3000 Hz at 10.5 s, 1 s long, center",
+     "basis": "exact"
+    },
+    {
+     "id": "q7",
+     "q": "When is the longest silence?",
+     "a": "About 4.25 s to 7.0 s",
+     "basis": "exact"
+    },
+    {
+     "id": "q8",
+     "q": "Which beep comes from the right?",
+     "a": "The 440 Hz (A4) beep at 15.0 s",
+     "basis": "exact"
+    },
+    {
+     "id": "q9",
+     "q": "Is there a very short click? Where?",
+     "a": "Yes, at 14.2 s, from the left",
+     "basis": "exact"
+    }
+   ]
+  },
+  "clip3": {
+   "source": "T5",
+   "audio": "data/synth/T5.wav",
+   "answers": [
+    {
+     "id": "q1",
+     "q": "What key does the piece start in?",
+     "a": "C major",
+     "basis": "exact"
+    },
+    {
+     "id": "q2",
+     "q": "Does the key change? If yes, where and to which key?",
+     "a": "Yes, up a whole step to D major at bar 9 (about 17.5 s)",
+     "basis": "exact"
+    },
+    {
+     "id": "q3",
+     "q": "What is the tempo in BPM?",
+     "a": "110 BPM",
+     "basis": "exact"
+    },
+    {
+     "id": "q4",
+     "q": "Describe the chord progression.",
+     "a": "C - F - G7 - C (I-IV-V7-I) twice, then D - G - A7 - D (same progression in D) twice",
+     "basis": "exact"
+    },
+    {
+     "id": "q5",
+     "q": "Describe the drum pattern.",
+     "a": "Kick on every beat (four-on-the-floor), snare on 2 and 4, hi-hat on the off-beat eighths",
+     "basis": "exact"
+    },
+    {
+     "id": "q6",
+     "q": "How does the melody of the second half relate to the first half?",
+     "a": "Same melody transposed up a whole tone",
+     "basis": "exact"
+    },
+    {
+     "id": "q7",
+     "q": "Name the likely instrument family of the melody.",
+     "a": "Bright saw-wave synth lead (brass/bowed-string-like timbre)",
+     "basis": "exact (synthesis voice)"
+    },
+    {
+     "id": "q8",
+     "q": "What mood would a listener report?",
+     "a": "Upbeat, cheerful, lifted by the key change",
+     "basis": "subjective reference"
+    }
+   ]
+  },
+  "clip4": {
+   "source": "T2",
+   "audio": "data/synth/T2.wav",
+   "answers": [
+    {
+     "id": "q1",
+     "q": "What key is this in?",
+     "a": "A minor",
+     "basis": "exact"
+    },
+    {
+     "id": "q2",
+     "q": "What is the tempo in BPM?",
+     "a": "128 BPM",
+     "basis": "exact"
+    },
+    {
+     "id": "q3",
+     "q": "Describe the chord progression.",
+     "a": "Am - F - C - G (i-VI-III-VII), one chord per bar",
+     "basis": "exact"
+    },
+    {
+     "id": "q4",
+     "q": "When does the lead melody enter?",
+     "a": "Bar 5, at about 7.5 s (bars 1-4 have no lead)",
+     "basis": "exact"
+    },
+    {
+     "id": "q5",
+     "q": "What changes in the last four bars?",
+     "a": "Drums and lead stop (breakdown, bars 13-16 from about 22.5 s); only chords and bass remain",
+     "basis": "exact"
+    },
+    {
+     "id": "q6",
+     "q": "Describe the bass rhythm.",
+     "a": "Steady eighth notes on the chord root",
+     "basis": "exact"
+    },
+    {
+     "id": "q7",
+     "q": "Describe the hi-hat rhythm.",
+     "a": "Sixteenth notes",
+     "basis": "exact"
+    },
+    {
+     "id": "q8",
+     "q": "Name the likely instrument family of the melody.",
+     "a": "Square-wave synth lead (hollow, clarinet-like odd-harmonic timbre)",
+     "basis": "exact (synthesis voice)"
+    },
+    {
+     "id": "q9",
+     "q": "What mood would a listener report?",
+     "a": "Driving, energetic, somewhat melancholic (minor key)",
+     "basis": "subjective reference"
+    }
+   ]
+  },
+  "clip5": {
+   "source": "third-party recording (not included)",
+   "audio": null,
+   "answers": [
+    {
+     "id": "q1",
+     "q": "Is this a solo instrument or an ensemble?",
+     "a": "Ensemble (string orchestra)",
+     "basis": "file title"
+    },
+    {
+     "id": "q2",
+     "q": "Name the likely instrument family.",
+     "a": "Strings (bowed string orchestra)",
+     "basis": "file title"
+    },
+    {
+     "id": "q3",
+     "q": "What key is this in?",
+     "a": "F# minor according to the file title. Note: the widely played orchestral arrangement of this piece is in G minor; the title key could not be verified by listening.",
+     "basis": "file title, uncertain"
+    },
+    {
+     "id": "q4",
+     "q": "Is the tempo steady or does it change?",
+     "a": "It changes: fast dance (Allegro) with marked tempo changes (accelerandi, slower passages)",
+     "basis": "score marking + common performance practice"
+    },
+    {
+     "id": "q5",
+     "q": "Are there drums or a drum kit?",
+     "a": "No",
+     "basis": "file title (string orchestra)"
+    },
+    {
+     "id": "q6",
+     "q": "Which style or genre is this?",
+     "a": "Romantic-era classical orchestral dance (Brahms, Hungarian Dance No. 5, csardas style)",
+     "basis": "file title"
+    },
+    {
+     "id": "q7",
+     "q": "What mood would a listener report?",
+     "a": "Fiery, passionate, dance-like, dramatic",
+     "basis": "subjective reference"
+    }
+   ],
+   "note": "J. Brahms, Hungarian Dance No. 5, string orchestra"
+  },
+  "clip6": {
+   "source": "T6",
+   "audio": "data/synth/T6.wav",
+   "answers": [
+    {
+     "id": "q1",
+     "q": "What key is this in?",
+     "a": "A minor",
+     "basis": "exact"
+    },
+    {
+     "id": "q2",
+     "q": "Does the tempo change? If yes, from what to what and where?",
+     "a": "Yes, from 90 BPM to 120 BPM at bar 9 (about 21.3 s)",
+     "basis": "exact"
+    },
+    {
+     "id": "q3",
+     "q": "Describe the chord progression.",
+     "a": "Am - Dm - E - Am (i-iv-V-i), one chord per bar",
+     "basis": "exact"
+    },
+    {
+     "id": "q4",
+     "q": "Is the dominant (V) chord major or minor?",
+     "a": "Major (E major, harmonic minor)",
+     "basis": "exact"
+    },
+    {
+     "id": "q5",
+     "q": "Describe the drum pattern.",
+     "a": "Kick on 1 and 3, snare on 2 and 4, hi-hat eighth notes",
+     "basis": "exact"
+    },
+    {
+     "id": "q6",
+     "q": "Name the likely instrument family of the melody.",
+     "a": "Bright saw-wave synth lead (brass/string-like)",
+     "basis": "exact (synthesis voice)"
+    },
+    {
+     "id": "q7",
+     "q": "What mood would a listener report?",
+     "a": "Dark, then more urgent and driving after the tempo jump",
+     "basis": "subjective reference"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,502 @@
+[
+ {
+  "clip": "clip1",
+  "id": "q1",
+  "category": "key/mode",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0,
+  "conf_T": 0.85,
+  "conf_C": 0.2
+ },
+ {
+  "clip": "clip1",
+  "id": "q2",
+  "category": "tempo/meter",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0,
+  "conf_T": 0.85,
+  "conf_C": 0.2
+ },
+ {
+  "clip": "clip1",
+  "id": "q3",
+  "category": "tempo/meter",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.9,
+  "conf_C": 0.7
+ },
+ {
+  "clip": "clip1",
+  "id": "q4",
+  "category": "harmony",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0,
+  "conf_T": 0.85,
+  "conf_C": 0.15
+ },
+ {
+  "clip": "clip1",
+  "id": "q5",
+  "category": "dynamics/structure",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.95,
+  "conf_C": 0.55
+ },
+ {
+  "clip": "clip1",
+  "id": "q6",
+  "category": "timing",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0,
+  "conf_T": 0.6,
+  "conf_C": 0.2
+ },
+ {
+  "clip": "clip1",
+  "id": "q7",
+  "category": "events/direction",
+  "scope": "headline",
+  "score_T": 0,
+  "score_C": 1,
+  "conf_T": 0.35,
+  "conf_C": 0.35
+ },
+ {
+  "clip": "clip1",
+  "id": "q8",
+  "category": "timbre/instrument",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0,
+  "conf_T": 0.95,
+  "conf_C": 0.55
+ },
+ {
+  "clip": "clip1",
+  "id": "q9",
+  "category": "timbre/instrument",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0,
+  "conf_T": 0.35,
+  "conf_C": 0.3
+ },
+ {
+  "clip": "clip1",
+  "id": "q10",
+  "category": "mood",
+  "scope": "subjective",
+  "score_T": 1,
+  "score_C": 0.5,
+  "conf_T": 0.5,
+  "conf_C": 0.35
+ },
+ {
+  "clip": "clip2",
+  "id": "q1",
+  "category": "events/direction",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.95,
+  "conf_C": 0.8
+ },
+ {
+  "clip": "clip2",
+  "id": "q2",
+  "category": "events/direction",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0,
+  "conf_T": 0.85,
+  "conf_C": 0.1
+ },
+ {
+  "clip": "clip2",
+  "id": "q3",
+  "category": "events/direction",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.9,
+  "conf_C": 0.35
+ },
+ {
+  "clip": "clip2",
+  "id": "q4",
+  "category": "events/direction",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0,
+  "conf_T": 0.8,
+  "conf_C": 0.3
+ },
+ {
+  "clip": "clip2",
+  "id": "q5",
+  "category": "events/direction",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0.5,
+  "conf_T": 0.9,
+  "conf_C": 0.2
+ },
+ {
+  "clip": "clip2",
+  "id": "q6",
+  "category": "events/direction",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0.5,
+  "conf_T": 0.9,
+  "conf_C": 0.3
+ },
+ {
+  "clip": "clip2",
+  "id": "q7",
+  "category": "timing",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0.5,
+  "conf_T": 0.9,
+  "conf_C": 0.1
+ },
+ {
+  "clip": "clip2",
+  "id": "q8",
+  "category": "events/direction",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.9,
+  "conf_C": 0.25
+ },
+ {
+  "clip": "clip2",
+  "id": "q9",
+  "category": "events/direction",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0.5,
+  "conf_T": 0.9,
+  "conf_C": 0.25
+ },
+ {
+  "clip": "clip3",
+  "id": "q1",
+  "category": "key/mode",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.9,
+  "conf_C": 0.25
+ },
+ {
+  "clip": "clip3",
+  "id": "q2",
+  "category": "key/mode",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0.5,
+  "conf_T": 0.9,
+  "conf_C": 0.15
+ },
+ {
+  "clip": "clip3",
+  "id": "q3",
+  "category": "tempo/meter",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0,
+  "conf_T": 0.75,
+  "conf_C": 0.15
+ },
+ {
+  "clip": "clip3",
+  "id": "q4",
+  "category": "harmony",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.85,
+  "conf_C": 0.15
+ },
+ {
+  "clip": "clip3",
+  "id": "q5",
+  "category": "tempo/meter",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0.5,
+  "conf_T": 0.75,
+  "conf_C": 0.4
+ },
+ {
+  "clip": "clip3",
+  "id": "q6",
+  "category": "dynamics/structure",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.9,
+  "conf_C": 0.5
+ },
+ {
+  "clip": "clip3",
+  "id": "q7",
+  "category": "timbre/instrument",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0.5,
+  "conf_T": 0.35,
+  "conf_C": 0.25
+ },
+ {
+  "clip": "clip3",
+  "id": "q8",
+  "category": "mood",
+  "scope": "subjective",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.6,
+  "conf_C": 0.35
+ },
+ {
+  "clip": "clip4",
+  "id": "q1",
+  "category": "key/mode",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.55,
+  "conf_C": 0.2
+ },
+ {
+  "clip": "clip4",
+  "id": "q2",
+  "category": "tempo/meter",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.8,
+  "conf_C": 0.15
+ },
+ {
+  "clip": "clip4",
+  "id": "q3",
+  "category": "harmony",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.9,
+  "conf_C": 0.2
+ },
+ {
+  "clip": "clip4",
+  "id": "q4",
+  "category": "timing",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.5,
+  "conf_C": 0.3
+ },
+ {
+  "clip": "clip4",
+  "id": "q5",
+  "category": "dynamics/structure",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0.5,
+  "conf_T": 0.7,
+  "conf_C": 0.2
+ },
+ {
+  "clip": "clip4",
+  "id": "q6",
+  "category": "tempo/meter",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.85,
+  "conf_C": 0.3
+ },
+ {
+  "clip": "clip4",
+  "id": "q7",
+  "category": "tempo/meter",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0,
+  "conf_T": 0.85,
+  "conf_C": 0.25
+ },
+ {
+  "clip": "clip4",
+  "id": "q8",
+  "category": "timbre/instrument",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0.5,
+  "conf_T": 0.45,
+  "conf_C": 0.35
+ },
+ {
+  "clip": "clip4",
+  "id": "q9",
+  "category": "mood",
+  "scope": "subjective",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.45,
+  "conf_C": 0.3
+ },
+ {
+  "clip": "clip5",
+  "id": "q1",
+  "category": "timbre/instrument",
+  "scope": "headline",
+  "score_T": 0,
+  "score_C": 0,
+  "conf_T": 0.6,
+  "conf_C": 0.6
+ },
+ {
+  "clip": "clip5",
+  "id": "q2",
+  "category": "timbre/instrument",
+  "scope": "headline",
+  "score_T": 0,
+  "score_C": 0,
+  "conf_T": 0.5,
+  "conf_C": 0.4
+ },
+ {
+  "clip": "clip5",
+  "id": "q3",
+  "category": "key/mode",
+  "scope": "uncertain",
+  "score_T": 0,
+  "score_C": 0,
+  "conf_T": 0.85,
+  "conf_C": 0.15
+ },
+ {
+  "clip": "clip5",
+  "id": "q4",
+  "category": "tempo/meter",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.85,
+  "conf_C": 0.45
+ },
+ {
+  "clip": "clip5",
+  "id": "q5",
+  "category": "timbre/instrument",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.9,
+  "conf_C": 0.7
+ },
+ {
+  "clip": "clip5",
+  "id": "q6",
+  "category": "timbre/instrument",
+  "scope": "headline",
+  "score_T": 0.5,
+  "score_C": 1,
+  "conf_T": 0.4,
+  "conf_C": 0.4
+ },
+ {
+  "clip": "clip5",
+  "id": "q7",
+  "category": "mood",
+  "scope": "subjective",
+  "score_T": 0,
+  "score_C": 0,
+  "conf_T": 0.5,
+  "conf_C": 0.35
+ },
+ {
+  "clip": "clip6",
+  "id": "q1",
+  "category": "key/mode",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0,
+  "conf_T": 0.85,
+  "conf_C": 0.15
+ },
+ {
+  "clip": "clip6",
+  "id": "q2",
+  "category": "tempo/meter",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.85,
+  "conf_C": 0.1
+ },
+ {
+  "clip": "clip6",
+  "id": "q3",
+  "category": "harmony",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0.5,
+  "conf_T": 0.9,
+  "conf_C": 0.2
+ },
+ {
+  "clip": "clip6",
+  "id": "q4",
+  "category": "harmony",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.85,
+  "conf_C": 0.6
+ },
+ {
+  "clip": "clip6",
+  "id": "q5",
+  "category": "tempo/meter",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.8,
+  "conf_C": 0.35
+ },
+ {
+  "clip": "clip6",
+  "id": "q6",
+  "category": "timbre/instrument",
+  "scope": "headline",
+  "score_T": 1,
+  "score_C": 0.5,
+  "conf_T": 0.35,
+  "conf_C": 0.2
+ },
+ {
+  "clip": "clip6",
+  "id": "q7",
+  "category": "mood",
+  "scope": "subjective",
+  "score_T": 1,
+  "score_C": 1,
+  "conf_T": 0.5,
+  "conf_C": 0.35
+ }
+]
